@@ -1,0 +1,37 @@
+#Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Extra
+*.egg
+*.egg-info/
+*.eggs
+.coverage
+.idea
+.tox/
+build/
+dist/
+docs/_build
+htmlcov/
+MANIFEST
+.DS_Store
+.env
+.vscode!/
+.vscode
+
+# This will automatically cover all newly created migrations 
+# so there's no need to always specify it.
+#/vdms/vdms/apps/*/migrations/
